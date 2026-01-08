@@ -46,4 +46,4 @@ class main{
 }
 ```
 ## output
-![output of method overloading in java](2b.output.PNG)
+![output of screenshot](2b.output.png)
