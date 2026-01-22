@@ -44,4 +44,4 @@ class Fibonacci {
 }
 ```
 ## output
-![output of screenshot](additional_2.output)
+![output of screenshot](additional_2.output.png)
