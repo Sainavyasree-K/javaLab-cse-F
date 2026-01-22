@@ -42,4 +42,4 @@ class Student {
 }
 ```
 ## output
-![output of screenshot](3a.output.png)
+![output of screenshot](3a.output.PNG)
