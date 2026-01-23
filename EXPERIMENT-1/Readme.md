@@ -23,7 +23,7 @@ System.out.println("boolean="+bool);
 ```
 # output
 ![output of screenshot](exp_1a_output.png)
-# TTITLE: 1b.) Display the quadratic roots
+# TITLE: 1b.) Display the quadratic roots
 ```
 import java.util.Scanner;
 class QuadraticRoots{
