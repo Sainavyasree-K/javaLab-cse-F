@@ -1,4 +1,4 @@
-## Additional experiment 1
+## Additional experiments
 ## TITLE:1) Program to insert sub string into a main string from a given position.
 ```
 import java.util.Scanner;
