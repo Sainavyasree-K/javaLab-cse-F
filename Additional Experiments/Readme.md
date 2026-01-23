@@ -1,4 +1,4 @@
-## Additional experiments
+## Additional Experiments
 ## TITLE:1) Program to insert sub string into a main string from a given position.
 ```
 import java.util.Scanner;
@@ -40,3 +40,44 @@ public class InsertSubstring {
 ```
 ## output
 ![output of screenshot](add_1.output.jpeg)
+## TITLE:3) Program to determine if a given string is palindrome or not.
+```
+import java.util.Scanner;
+
+public class PalindromeCheck {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Input string
+        System.out.print("Enter a string: ");
+        String str = sc.nextLine();
+
+        // Initialize pointers
+        int start = 0;
+        int end = str.length() - 1;
+
+        boolean isPalindrome = true;
+
+        // Compare characters from both ends
+        while (start < end) {
+            if (str.charAt(start) != str.charAt(end)) {
+                isPalindrome = false;
+                break;
+            }
+            start++;
+            end--;
+        }
+
+        // Display result
+        if (isPalindrome) {
+            System.out.println("String is a palindrome");
+        } else {
+            System.out.println("String is not a palindrome");
+        }
+
+        sc.close();
+    }
+}
+```
+## output
+![output of screenshot](add_3.output.jpeg)
