@@ -92,7 +92,7 @@ public class TestSort {
     }
 }
 ```
-##output
+## output
 ![output of screenshot](5a.output.png)
 ##experiment 5b
 ##Title:Program to implement runtime polymorphism.
@@ -150,7 +150,7 @@ public class TestVehicle {
     }
 }
 ```
-##output
+## output
 ![the output is](5b.output.png)
 
 
